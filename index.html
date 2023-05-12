@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="icon" href="img/alura-icon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="contenedor header">
+        <img class="header__img" src="img/a-logo.svg" alt="Logo de Alura">
+        <div class="toggle">
+            <p class="toggle__p">Oscuro</p>
+            <img class="toggle__img" src="img/luna.png" alt="Luna Dark-Mode">
+        </div>
+    </header>
+
+    <main class="contenedor principal">
+        <section class="ingresar">
+            <textarea id="lectura" class="ingresar__txt" placeholder="Ingrese el texto aquí"></textarea>
+
+            <div class="restringir">
+                <img class="restringir__img" src="img/exclamation.svg" alt="Signo de Exclamación">
+                <p class="restringir__p">Solo letras minúsculas y sin acentos</p>
+            </div>
+
+            <div class="btns">
+                <button id="encriptar" class="btn btn--azul">Encriptar</button>
+                <button id="desencriptar" class="btn btn--transparente">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="respuesta">
+            <div class="default">
+                <div class="default__muneco"></div>
+                <p class="default__bold">Ningún mensaje fue encontrado</p>
+                <p class="default__normal">Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+
+            <div class="datos ocultar">
+                <textarea id="escritura" class="datos__text" readonly></textarea>
+                <button id="copiar" class="btn btn--transparente btn__copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <hr>
+        <p class="footer__p">Challenge Encriptador de texto - Matias Barraza</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
