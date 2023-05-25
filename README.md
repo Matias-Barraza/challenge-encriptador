@@ -12,7 +12,7 @@
 
 Este proyecto es una herramienta que te permitirá intercambiar mensajes secretos con otras personas utilizando una encriptación especial.
 
-<a href="https://matias-barraza.github.io/challenge-encriptador/">Pruébalo aquí --></a>
+<a href="https://matias-barraza.github.io/challenge-encriptador/" target="_blank">Pruébalo aquí --></a>
 
 <img width="700" src="img-readme/proyecto.png">
 <div>
@@ -171,7 +171,7 @@ Hasta aquí hemos finalizado el **Challenge Encriptador de Texto**. Quiero expre
 
 Sin nada más que decir... **¡Espera un momento!** no puedes irte sin probar la aplicación.
 
-👉 <a href="https://matias-barraza.github.io/challenge-encriptador/">Pruébala aquí</a> 👈
+👉 <a href="https://matias-barraza.github.io/challenge-encriptador/" target="_blank">Pruébala aquí</a> 👈
 
 Ahora si, sin nada más que decir me despido ✌ **adios** ✌
 
